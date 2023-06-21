@@ -4,8 +4,8 @@ const dots = document.querySelectorAll('.dot')
 
 const showInfoBox = () => {
     dots.forEach((dot) => {
-        dot.addEventListener('click', function(e) {
-            console.log(e.target)
+        dot.addEventListener('click', function() {
+            toggleInfo()
         })
     })
 }
